@@ -96,7 +96,7 @@ android {
         TEST {
             dimension "environment"
             // 每个环境包名不同
-            applicationId "com.uqiauto.firstunion"
+            applicationId "com.arian.distribution"
             versionCode 1
             versionName "1.0.0"
             resValue "string", "app_name", "奥立安Test"
@@ -106,7 +106,7 @@ android {
         RELEASE {
             dimension "environment"
             // 每个环境包名不同
-            applicationId "com.uqiauto.firstunion"
+            applicationId "com.arian.distribution"
             versionCode 1
             versionName "1.0.0"
             resValue "string", "app_name", "奥立安"

@@ -4,4 +4,7 @@
     <!-- 开关-->
     <string name="drawer_open">打开</string>
     <string name="drawer_close">关闭</string>
+
+    <string name="network_is_not_connected">网络故障，请检查您的网络</string>
+
 </resources>
