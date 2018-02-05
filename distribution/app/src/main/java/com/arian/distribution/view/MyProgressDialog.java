@@ -14,7 +14,7 @@
  *       1.0.0           2012-4-27         lxd (rohsuton@gmail.com)        Create
  **************************************************************************************/
 
-package com.uqiauto.distribution.view;
+package com.arian.distribution.view;
 
 
 import android.app.Dialog;
@@ -22,7 +22,7 @@ import android.content.Context;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import com.uqiauto.distribution.R;
+import com.arian.distribution.R;
 
 /********************************************************************
  * [Summary] TODO 请在此处简要描述此类所实现的功能。因为这项注释主要是为了在IDE环境中生成tip帮助，务必简明扼要 [Remarks]

@@ -1,4 +1,4 @@
-package com.uqiauto.distribution.base;
+package com.arian.distribution.base;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.trello.rxlifecycle2.components.support.RxFragment;
-import com.uqiauto.distribution.view.MyProgressDialog;
+import com.arian.distribution.view.MyProgressDialog;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

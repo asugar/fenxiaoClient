@@ -1,11 +1,11 @@
-package com.uqiauto.distribution;
+package com.arian.distribution;
 
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 
-import com.uqiauto.distribution.base.BaseActivity;
+import com.arian.distribution.base.BaseActivity;
 
 import butterknife.BindView;
 

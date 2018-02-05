@@ -1,4 +1,4 @@
-package com.uqiauto.distribution.base;
+package com.arian.distribution.base;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
@@ -9,8 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
-import com.uqiauto.distribution.utils.ActivityManager;
-import com.uqiauto.distribution.view.MyProgressDialog;
+import com.arian.distribution.utils.ActivityManager;
+import com.arian.distribution.view.MyProgressDialog;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

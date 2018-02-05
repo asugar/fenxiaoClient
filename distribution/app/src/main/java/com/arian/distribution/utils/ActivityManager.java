@@ -1,4 +1,4 @@
-package com.uqiauto.distribution.utils;
+package com.arian.distribution.utils;
 
 import android.app.Activity;
 import android.content.Context;
