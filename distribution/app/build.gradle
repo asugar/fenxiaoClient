@@ -88,6 +88,11 @@ android {
         release.setRoot('build-types/release')
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     flavorDimensions "environment"
 
     // 多渠道/多环境 的不同配置
@@ -112,7 +117,6 @@ android {
             resValue "string", "app_name", "奥立安"
             buildConfigField "String", "BASE_URL", '"http://data.uqiauto.com/"'
         }
-
 
     }
 }

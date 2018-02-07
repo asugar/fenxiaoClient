@@ -3,7 +3,7 @@ package com.arian.distribution.navigate;
 import android.app.Activity;
 import android.content.Intent;
 
-import com.arian.distribution.MainActivity;
+import com.arian.distribution.modules.home.activity.MainActivity;
 import com.arian.distribution.modules.login.LoginActivity;
 import com.arian.distribution.modules.login.RegisterActivity;
 

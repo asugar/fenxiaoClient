@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme">
 
         <!--主界面-->
-        <activity android:name="com.arian.distribution.MainActivity" />
+        <activity android:name="com.arian.distribution.modules.home.activity.MainActivity" />
 
 
         <!--登录界面-->

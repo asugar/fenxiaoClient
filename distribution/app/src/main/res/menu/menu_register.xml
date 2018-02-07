@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/action_scan"
-        android:icon="@mipmap/icon_scan_black"
+        android:icon="@mipmap/icon_scan_white"
         android:orderInCategory="20"
         android:title="@null"
         app:showAsAction="ifRoom" />

@@ -184,4 +184,6 @@
     <color name="imager_background">#FFE5E1</color>
 
     <color name="textcolor">#aaaeb9</color>
+    <!--首页选中字体颜色-->
+    <color name="home_text_selected_color">@color/main_color</color>
 </resources>
