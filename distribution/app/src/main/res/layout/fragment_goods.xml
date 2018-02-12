@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical">
 
-    <TextView
+    <android.support.v7.widget.SearchView
+        android:id="@+id/sv_goods"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="fragment_goods" />
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_search_by_name"
+        android:imeOptions="actionSearch"
+        app:closeIcon="@mipmap/icon_delete"
+        app:iconifiedByDefault="false"
+        app:queryHint="请输入搜索内容"
+        app:searchIcon="@mipmap/icon_search" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_goods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

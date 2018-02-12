@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * Created by xiaoyi on 2018/2/7.
@@ -60,6 +61,7 @@ public class HomeFragment extends BaseFragment {
             beans.add(goodsAdapterBean);
         }
         goodsAdapter.notifyDataSetChanged();
+        nestedScrollView.smoothScrollTo(0, 20);
     }
 
     private void initAdapter() {
@@ -80,7 +82,6 @@ public class HomeFragment extends BaseFragment {
 //                Navigate.startMineEnquiryDetailActivity(getContext(), EnquiryListBeen.get(position).getId());
             }
         });
-
     }
 
     // 初始化banner
@@ -116,6 +117,19 @@ public class HomeFragment extends BaseFragment {
         }
 
     };
+
+    @OnClick({R.id.tv_goods_manager, R.id.tv_user_manager})
+    public void onManagerClick(View v) {
+        switch (v.getId()) {
+            case R.id.tv_goods_manager:
+                ToastUtil.show(getContext(), "正在开发中，敬请期待");
+                break;
+            case R.id.tv_user_manager:
+                ToastUtil.show(getContext(), "正在开发中，敬请期待");
+                break;
+        }
+
+    }
 
 
 }
