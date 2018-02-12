@@ -19,6 +19,7 @@
         android:layout_marginTop="45dp">
 
         <EditText
+            android:text="111"
             android:id="@+id/et_login_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,6 +41,7 @@
         android:layout_marginTop="25dp">
 
         <EditText
+            android:text="111"
             android:id="@+id/et_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
